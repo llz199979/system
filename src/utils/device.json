@@ -1,0 +1,17 @@
+{
+    "alarmTemp": 37.3,
+    "binocularCamera": false,
+    "detectionMode": 1,
+    "highTempMeasurementTimes": 2,
+    "highTemperatureAlarm": true,
+    "informationShowTime": 10,
+    "maskFunction": false,
+    "openManagerPassword": false,
+    "roomTemp": 26,
+    "screenSaver": false,
+    "sensingDistance": 60,
+    "showHighTemp": true,
+    "sleepTime": 180,
+    "supportVisitor": false,
+    "visitorsOpen": false
+}

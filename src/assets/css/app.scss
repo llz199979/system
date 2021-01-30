@@ -1,0 +1,111 @@
+html,body{
+    height:100%;
+    width:100%;
+    min-width:1000px;
+    min-height:680px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size:13px;
+}
+*::-webkit-scrollbar {width:4px; height:6px; background-color:transparent;} /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+    *::-webkit-scrollbar-track {background-color:#fff;  } /*定义滚动条轨道 内阴影+圆角*/
+    *::-webkit-scrollbar-thumb {background-color:#ddd; border-radius:6px;} /*定义滑块 内阴影+圆角*/
+    *::-webkit-scrollbar-thumb:hover{
+        background-color: #ccc;
+      }
+    .scrollbarHide::-webkit-scrollbar{display: none}
+    .scrollbarShow::-webkit-scrollbar{display: block}
+body,div,ul,li,ol,
+h1,h2,h3,h4,h5,h6,
+form,p,input,button{
+  margin:0;
+  padding:0;
+}
+ul,ol{
+  list-style: none;
+}
+div,ul,li,p{
+  box-sizing:border-box;
+}
+.height_100{
+  height:100%;
+}
+img{
+  border:0;
+  vertical-align: middle;
+  user-select: none;
+}
+
+a{
+  text-decoration:none;
+  color:#2c3e50;
+}
+.clearfix::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.solid{
+  border:solid 1px;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.text_left{
+  text-align:left;
+}
+.text_right{
+  text-align:right;
+}
+.center{
+  text-align:center;
+}
+.el{
+    vertical-align:bottom;
+    margin-right:4px;
+    font-size:16px;
+    color:#fff;
+  }
+.underline{
+  border-bottom:solid 1px #ccc;padding-bottom:6px;
+  margin-bottom:10px;
+}
+.flex{
+  display:flex;
+  justify-content: space-around;
+}
+.relative{
+  position: relative;
+}
+.refuseCopy{
+  user-select: none;
+}
+.box {
+  width: 80px;
+  height: 34px;
+  line-height: 34px;
+  color:#666;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #aaa;
+  transition: all .5s ease;
+  background: #fff linear-gradient(to right, #409eff, #409) no-repeat center bottom;
+  background-size: 0 2px;
+  background-position: center bottom;
+  cursor: pointer;
+}
+.box:hover {
+  color:#909099;
+  background-size: 100% 3px;
+}
+.input_260{
+  width:260px;
+}
+.cardHeader{
+  color:#0c6;
+  font-size:14px;
+}
+
+
